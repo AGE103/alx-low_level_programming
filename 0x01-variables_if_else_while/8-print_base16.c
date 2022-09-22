@@ -8,15 +8,19 @@
 int main(void)
 {
 		int num;
-		char letter;
+			char letter;
 
 				for (num = '0'; num <= '9'; num++)
-			putchar(num);
-				for (letter = 'a'; letter <= 'f'; letter++)
-			putchar(letter)	
+						{
+									putchar(num);
+										}
 
-				putchar(letter);
-		putchar('\n');
+					for (letter = 'a'; letter <= 'f'; letter++)
+							{
+										putchar(letter);
+											}
 
-	return (0);
+						putchar('\n');
+
+							return (0);
 }
