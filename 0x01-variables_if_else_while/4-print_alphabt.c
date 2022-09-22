@@ -7,14 +7,17 @@
 
 int main(void)
 {
-		char l_letter;
+		char low, e, q;
+		e = 'e';
+		q = 'q';
 
-		for (l_letter = 97; l_letter <= 122; l_letter++)
+		for (low = 'a'; low <= 'z'; low++)
 			{
-				putchar(l_letter);
+			if (low != e && low != q)
+				putchar(low);
 					}
 
-			putchar('\n');
+			printf('\n');
 
 	return (0);
 }
