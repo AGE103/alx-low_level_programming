@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 /**
 *main - prints out the size of different data types via sizeof
 *
@@ -12,7 +13,7 @@ int main(void)
 
 {
 
-	rintf("Size of a char: %d byte(s)\n", sizeof(char));
+	printf("Size of a char: %d byte(s)\n", sizeof(char));
 
 	printf("Size of an int: %d byte(s)\n", sizeof(int));
 
