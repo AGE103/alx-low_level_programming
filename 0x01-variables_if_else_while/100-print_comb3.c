@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <main.h>
 
-/*
+/**
 *main - Prints all posible different combinations of two digits
 *description: to print combination of 3 numbers
 *Return: 0
