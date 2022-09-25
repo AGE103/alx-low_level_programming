@@ -2,11 +2,11 @@
 
 /*
 *main - Prints all posible different combinations of two digits
-*description: to print combination of 3 numbers 
+*description: to print combination of 3 numbers
 *Return: 0
 */
 
-int main(void)
+	int main(void)
 
 {
 	int num1, num2;
