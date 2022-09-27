@@ -1,15 +1,13 @@
 #include "main.h"
 
 /**
- *_strchr- a function that locates a char in a string
+ *_strspn - get the length of a prefix substring
  *
- *@s: a pointer given by main
+ *@accept: pointer to get the bytes
  *
- *@c: the char to look for
+ *@s: pointer to string char type
  *
- *Description: returns the first occurance of the char c in string
- *
- *Return: returns a pointer to the first occurance
+ *Return: number of bytes in s which are from accept
  */
 
 unsigned int _strspn(char *s, char *accept)
