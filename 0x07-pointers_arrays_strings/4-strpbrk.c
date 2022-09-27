@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
- *_strchr- a function that locates a char in a string
+ *_strpbrk - locates the first occurrence in s of any of the bytes of accept
  *
- *@s: a pointer given by main
+ *@accept: pointer to get the bytes
  *
- *@c: the char to look for
+ *@s: string
  *
- *Description: returns the first occurance of the char c in string
- *
- *Return: returns a pointer to NULL
+ *Return: a pointer to s or NULL if no byte is found
  */
+
 char *_strpbrk(char *s, char *accept)
 
 {
